@@ -1,0 +1,35 @@
+a.btn-first {
+  background-color: darkorange;
+  color: #fff;
+}
+
+a.btn-second {
+  background: transparent;
+  border: 1px solid darkorange;
+}
+
+a.btn {
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+a.btn:hover {
+  background: darkorange;
+  border: #fff;
+  -webkit-box-shadow: 5px 5px 10px #999;
+          box-shadow: 5px 5px 10px #999;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.row2, .row4 {
+  padding: 10px 0;
+  background: darkorange;
+}
+
+.row4 {
+  background-color: #232323;
+}
+/*# sourceMappingURL=style.css.map */

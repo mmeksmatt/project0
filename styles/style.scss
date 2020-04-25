@@ -1,0 +1,33 @@
+$buttoncolour:  darkorange;
+$colour_white: #fff;
+
+a.btn-first{
+    background-color: $buttoncolour;
+    color:$colour_white;
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid $buttoncolour;
+}
+a.btn
+{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    &:hover{
+        background: $buttoncolour;
+        border: $colour_white;
+        box-shadow: 5px 5px 10px #999;
+        transition: 0.3s;
+    }
+}
+
+.row2{
+    padding: 10px 0;
+    background: darkorange;
+}
+.row4{ 
+    @extend.row2;
+    background-color:#232323;
+}
